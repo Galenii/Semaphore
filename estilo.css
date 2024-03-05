@@ -21,6 +21,7 @@ body {
 
 .container span + span {
 	margin: 10px 0;
+    
 }
 
 .vermelho {
@@ -60,4 +61,16 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+}
+
+.button{
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.container{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
 }
