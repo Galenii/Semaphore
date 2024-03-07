@@ -8,6 +8,8 @@ function on(){
     setInterval(() => {
         if (contador === 0 || contador === 6) {
             vermelho.classList.add('vermelho-ativo');
+            const audio = new Audio('apito.mp3');
+            audio.play();
             verde.classList.remove('verde-ativo');
             amarelo.classList.remove('amarelo-ativo');
         } else if (contador === 3) {
