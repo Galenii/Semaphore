@@ -23,9 +23,6 @@ function on(){
         } else if (contador === 7) {
             amarelo.classList.remove('amarelo-ativo');
         }
-
-        
-        
         contador = (contador + 1) % 8;
     }, 1000);
 }
